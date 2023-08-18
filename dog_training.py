@@ -123,15 +123,14 @@ def update_table(value):
 def update_graphs(value):
     ###FIX ME ####
     # add code for chart of your choice (e.g. pie chart) #
-    match value:
-        case "water":
+    if value == "water":
             myquery = (
                 'animal_type == "Dog" '
                 'and breed in ["Labrador Retriever Mix","Chesapeake Bay Retriever","Newfoundland",] '
                 'and sex_upon_outcome == "Intact Female" '
                 "and age_upon_outcome_in_weeks>=26.0 and age_upon_outcome_in_weeks<=156.0"
             )
-        case "mountain":
+    elif value == "mountain":
             myquery = (
                 'animal_type == "Dog" '
                 'and breed in ["German Shepard","Alaskan Malamute","Old English Sheepdog",'
@@ -139,14 +138,14 @@ def update_graphs(value):
                 'and sex_upon_outcome == "Intact Male" '
                 "and age_upon_outcome_in_weeks>=26.0 and age_upon_outcome_in_weeks<=156.0"
             )
-        case "disaster":
+    elif value == "disaster":
             myquery = (
                 'animal_type == "Dog" '
                 'and breed in ["Doberman Pinscher","German Shepard","Golden Retriever","Bloodhound","Rottweiler",] '
                 'and sex_upon_outcome == "Intact Male" '
                 "and age_upon_outcome_in_weeks>=20.0 and age_upon_outcome_in_weeks<=300.0"
             )
-        case _:
+    else:
             myquery = 'animal_type == "Dog" '
 
     if myquery == "":
