@@ -1,6 +1,0 @@
-MONGO_HOST=nv-desktop-services.apporto.com
-MONGO_PORT=31565
-MONGO_USER=root
-MONGO_PASS=kSMfpch3Q2
-
-export MONGO_HOST MONGO_PORT MONGO_USER MONGO_PASS
