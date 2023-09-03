@@ -1,7 +1,7 @@
-# Gravior Salvare Dog Training: Python Dash Demo
+# Grazioso Salvare Dog Training: Python Dash Demo
 
 <p align="center">
-<a href="https://dog-training-demo-app.onrender.com"><img src="logo.png" width="250" alt="Gravior Salvare Logo"></a>
+<a href="https://dog-training-demo-app.onrender.com"><img src="logo.png" width="250" alt="Grazioso Salvare Logo"></a>
 
 <br>
 <a href="https://dog-training-demo-app.onrender.com">Click to visit Demo Site</a>
@@ -9,7 +9,7 @@
 
 
 ## About
-Gravior Salvare is working with several animal shelters in the Austin, TX area. We have been asked to develop an 
+Grazioso Salvare is working with several animal shelters in the Austin, TX area. We have been asked to develop an 
 application to match available animals at the shelter for training as rescue dogs. Certain dogs, based on age, 
 breed, sex, and other attributes, are able to be trained for different roles: Water Rescue, Mountain Rescue, and 
 Disaster Rescue. We have been tasked with developing a dashboard that identifies the dogs that are available for 
